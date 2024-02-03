@@ -10,6 +10,7 @@ public class DivideWithoutDivisionOperator_Abeer {
         int num2 = input.nextInt();
         int num3 = num1;
 
+
         int count;
         for(count = 0; num1 > 0 && num2 <= num1; ++count) {
             num1 -= num2;

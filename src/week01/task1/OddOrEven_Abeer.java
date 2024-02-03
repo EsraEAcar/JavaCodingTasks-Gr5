@@ -9,8 +9,10 @@ public class OddOrEven_Abeer {
         int Num = input.nextInt();
         input.close();
         if (Num % 2 == 0) {
+
             System.out.println("" + Num + " is even number ");
         } else {
+
             System.out.println("" + Num + " is odd number ");
         }
 
