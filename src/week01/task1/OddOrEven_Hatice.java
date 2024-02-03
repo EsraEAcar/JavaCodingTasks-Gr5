@@ -1,18 +1,16 @@
 package week01.task1;
 
-import java.util.Scanner;
 
 public class OddOrEven_Hatice {
 
     public static void main(String[] args) {
 
+        OddOrEven(34);
 
-        Scanner input = new Scanner(System.in);
-        System.out.println("Enter your number: ");
+    }
+        public static void OddOrEven(int number){
 
-        int number = input.nextInt();
         String result = "";
-
 
         if (number % 2 == 0){
             result ="This number is even number";
@@ -22,7 +20,7 @@ public class OddOrEven_Hatice {
 
         System.out.println(result);
 
-        input.close();
+
 
 
 
