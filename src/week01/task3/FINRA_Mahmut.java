@@ -1,6 +1,27 @@
 package week01.task3;
 
-public class FINRA_Esra {
+public class FINRA_Mahmut {
+
+    public static void main(String[] args) {
+
+        finra(20);
+    }
+    public static void finra(int num) {
+        String result = "";
+        for (int i = 1; i < num; i++) {
+            if (i % 5 == 0 && i % 3 == 0) {
+                result = "FINRA ";
+            } else if (i % 3 == 0) {
+                result = "FIN ";
+            } else if (i % 5 == 0) {
+                result = "RA ";
+            } else {
+                result = i + " ";
+            }
+            System.out.println(result);
+        }
+
+    }
 
     public static void main(String[] args) {
 

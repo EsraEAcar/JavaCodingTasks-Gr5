@@ -1,6 +1,14 @@
 package week01.task1;
 
-public class OddOrEven_Esra {
+public class OddOrEven_Mahmut {
+    public static void main(String[] args) {
+        System.out.println(OddOrEven(8)); // Even
+        System.out.println(OddOrEven(7)); // Odd
+
+    }
+    public  static  String  OddOrEven(int number) {
+        return  number%2==0 ? "Even" : "Odd" ;
+    }
 
     public static void main(String[] args) {
 
