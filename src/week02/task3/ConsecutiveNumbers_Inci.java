@@ -1,4 +1,4 @@
-package week02;
+package week02.task3;
 
 public class ConsecutiveNumbers_Inci {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package week02;
+package week02.task2;
 
 public class Divisibleby3_5_15_Inci {
 
