@@ -33,6 +33,7 @@ String result = n + " is a prime number";
 
 
 
+
 /*
 1️⃣ Numbers -- PrimeNumber
 Write a method that can check if a number is prime or not
