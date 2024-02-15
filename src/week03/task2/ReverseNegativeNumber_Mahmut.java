@@ -6,7 +6,6 @@ public class ReverseNegativeNumber_Mahmut {
 
         System.out.println(reverseNegativeNumber1(-153));// -351
         System.out.println(reverseNegativeNumber2(-153)); // -351
-
     }
 
     public static int reverseNegativeNumber1(int n){

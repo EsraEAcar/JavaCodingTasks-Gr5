@@ -8,7 +8,6 @@ public class PrimeNumber_Mahmut {
 
         isPrimeNumber2(29); // 29 is a Prime Number
         isPrimeNumber2(100); // 100 is not a Prime Number
-
     }
 
     public static void isPrimeNumber1 (int n){
