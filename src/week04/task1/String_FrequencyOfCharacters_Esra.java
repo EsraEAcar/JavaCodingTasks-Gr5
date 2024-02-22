@@ -1,6 +1,6 @@
 package week04.task1;
 
-public class String_FrequencyOfCharacters {
+public class String_FrequencyOfCharacters_Esra {
 
     public static void main(String[] args) {
 

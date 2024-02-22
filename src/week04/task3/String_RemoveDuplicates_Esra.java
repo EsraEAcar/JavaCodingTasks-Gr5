@@ -1,6 +1,6 @@
 package week04.task3;
 
-public class String_RemoveDuplicates {
+public class String_RemoveDuplicates_Esra {
 
     public static void main(String[] args) {
 
