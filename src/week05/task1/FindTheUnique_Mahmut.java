@@ -20,7 +20,6 @@ public class FindTheUnique_Mahmut {
      * @return  unique Chars
      */
 
-
     public static String uniqueChar1(String str){
 
         ArrayList<String> list = new ArrayList<>(Arrays.asList(str.split("")));

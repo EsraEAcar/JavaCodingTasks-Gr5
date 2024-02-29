@@ -19,7 +19,6 @@ public class Reverse_A_String_Mahmut {
      * @return reversed_str
      */
 
-
     public static String reverse1(String str){
 
         ArrayList<String> list = new ArrayList<>(Arrays.asList(str.split("")));
