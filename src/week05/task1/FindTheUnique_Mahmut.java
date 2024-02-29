@@ -14,12 +14,12 @@ public class FindTheUnique_Mahmut {
 
     }
 
-
     /**
      *
      * @param str
      * @return  unique Chars
      */
+
 
     public static String uniqueChar1(String str){
 
