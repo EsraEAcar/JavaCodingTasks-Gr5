@@ -14,6 +14,11 @@ public class String_RemoveDuplicates_Esra {
 
     }
 
+    /**
+     *
+     * @param str
+     */
+
     public static void removeDup(String str){
         String result = "";
 
@@ -21,7 +26,7 @@ public class String_RemoveDuplicates_Esra {
 
             char eachChar = str.charAt(i);  // each character of the String str
 
-            if(result.contains( eachChar + "")){ // if the string result contain the character of string str just continue, don't add
+            if(result.contains( eachChar + "")){ // if the string result contains the character of string str, just continue, don't add
                 continue;
             } else {
                 result += eachChar; // if it does not contain add the character to string result
@@ -31,9 +36,6 @@ public class String_RemoveDuplicates_Esra {
 
         }
         System.out.println(result);
-
-
-
 
 
     }
