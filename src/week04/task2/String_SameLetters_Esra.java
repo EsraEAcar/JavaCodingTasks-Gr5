@@ -2,7 +2,7 @@ package week04.task2;
 
 import java.util.Arrays;
 
-public class String_SameLetters {
+public class String_SameLetters_Esra {
     public static void main(String[] args) {
 
         System.out.println(sameLetters("abc", "cab"));
