@@ -31,7 +31,6 @@ public class SumOfAllDigits_Mahmut {
                 sum += Integer.parseInt(each);
             }
         }
-
         return sum;
     }
 }

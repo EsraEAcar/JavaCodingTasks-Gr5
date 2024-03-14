@@ -27,7 +27,6 @@ public class FindMaximum_Mahmut {
                 max = each;
             }
         }
-
         return max;
     }
 

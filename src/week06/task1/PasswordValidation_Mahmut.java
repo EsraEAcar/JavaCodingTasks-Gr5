@@ -24,6 +24,7 @@ public class PasswordValidation_Mahmut {
         boolean hasDigitChars = false;
         boolean hasSpecialChars = false;
 
+
         for (int i = 0; i < password.length(); i++) {
 
             char currentChar = password.charAt(i);
