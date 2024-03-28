@@ -13,6 +13,10 @@ public class Array_FindMaximum_Esra {
 
     }
 
+    /**
+     * Finding Max Number
+     * @param arr
+     */
     public static void findMaxNumber(int[] arr){
 
         int max = arr[0];
