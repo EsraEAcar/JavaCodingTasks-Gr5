@@ -6,7 +6,7 @@ public class ReverseNegativeNumber_Esra {
 
 
 
-            int givenNumber = -35;
+            int givenNumber = -12365;
             String reversedNumber = "-";
 
             String convertedIntToString = String.valueOf(givenNumber);
