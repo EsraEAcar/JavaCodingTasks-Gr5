@@ -7,27 +7,28 @@ public class Array_SortDescending_Esra {
     public static void main(String[] args) {
 
         int[] arr = {10,20,7, 8, 90};
-        sortDesc(arr);
-
-
-    }
-
-    /**
-     * Sorting an array
-     * @param arr
-     */
-    public static void sortDesc(int[] arr){
-
-        Arrays.sort(arr);
-        System.out.print("Elements of array sorted in ascending order: \n");
-        for (int i = arr.length-1; i >= 0; i--)
-        {
-            System.out.print(arr[i]+ ", ");
-
+        sortArrayDesc(arr);
+        System.out.println("Sorted array in ascending order:");
+        for (int num : arr) {
+            System.out.print(num + " ");
         }
-
-
     }
+
+
+    public static void sortArrayDesc(int[] arr) {
+
+        for (int i = 0; i < arr.length - 1; i++) {
+            for (int j = 0; j < arr.length - i - 1; j++) {
+                if (arr[j] < arr[j + 1]) {
+                    // Swap arr[j] and arr[j+1]
+                    int temp = arr[j];
+                    arr[j] = arr[j + 1];
+                    arr[j + 1] = temp;
+                }
+            }
+        }
+    }
+
 
 
 }
