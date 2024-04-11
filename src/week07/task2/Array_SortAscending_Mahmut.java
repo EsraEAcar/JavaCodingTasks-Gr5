@@ -34,6 +34,7 @@ public class Array_SortAscending_Mahmut {
 
     }
 
+
     public static void sortAscending2(int[] arr) {
 
         for (int i = 0; i < arr.length - 1; i++) {

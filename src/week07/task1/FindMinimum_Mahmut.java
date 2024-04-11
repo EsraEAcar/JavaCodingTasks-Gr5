@@ -10,6 +10,7 @@ public class FindMinimum_Mahmut {
 
     }
 
+
     /**
      * This method finds minimum number from the given int array
      * @param arr (int array)

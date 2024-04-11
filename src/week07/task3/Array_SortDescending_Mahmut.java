@@ -11,6 +11,7 @@ public class Array_SortDescending_Mahmut {
         sortDescending2(arr); // [90, 20, 10, 8, 7]
 
     }
+
     public static void sortDescending1(int[] arr) {
 
         for (int i = 0; i < arr.length - 1; i++) {

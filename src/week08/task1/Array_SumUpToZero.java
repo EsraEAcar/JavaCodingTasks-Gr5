@@ -24,6 +24,7 @@ public class Array_SumUpToZero {
      */
 
 
+
     public static int[] sumUpToZero1(int N){
 
         if (N <= 1 || N >= 100) {
