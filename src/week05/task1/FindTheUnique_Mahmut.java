@@ -15,7 +15,7 @@ public class FindTheUnique_Mahmut {
     }
 
     /**
-     *
+     * This method finds unique characters in a given string
      * @param str
      * @return  unique Chars
      */
