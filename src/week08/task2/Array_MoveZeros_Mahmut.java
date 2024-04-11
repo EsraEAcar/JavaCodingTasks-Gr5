@@ -1,9 +1,8 @@
 package week08.task2;
 
-import java.lang.reflect.Array;
 import java.util.Arrays;
 
-public class Array_MoveZeros {
+public class Array_MoveZeros_Mahmut {
 
     public static void main(String[] args) {
 

@@ -3,7 +3,7 @@ package week08.task1;
 import java.util.Arrays;
 import java.util.Random;
 
-public class Array_SumUpToZero {
+public class Array_SumUpToZero_Mahmut {
 
     public static void main(String[] args) {
 
