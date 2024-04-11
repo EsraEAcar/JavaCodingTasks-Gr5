@@ -17,6 +17,7 @@ public class FindMinimum_Mahmut {
      * @return  minimum number from the given array
      */
 
+
     public static int minimumNumber(int[] arr){
 
         //int min =  Integer.MAX_VALUE; ==> this also works

@@ -65,7 +65,6 @@ public class Array_MoveZeros {
     }
 
 
-
     /**
      * This method moves all the zeros to last indexes of the array
      * @param  array
